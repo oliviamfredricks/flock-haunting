@@ -1,0 +1,232 @@
+@font-face { 
+	font-family: "Scream Again"; 
+	src: url(.../Scream Again.ttf);} 
+@font-face{
+	font-family: "Space Mono";
+	src: url(.../SpaceMono);
+}
+
+body {background-image: url(../images/bedroom.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 3500px;
+
+}
+
+h1 {
+	font-family: "Space Mono";
+	font-size: 60px;
+	text-align: Center;
+	padding-top: 130px;
+}
+
+h2{ 
+background-color: rgb(243, 249, 139);
+font-family: "Space Mono";
+font-style: italic;
+padding: 5px;
+text-align: center;
+}
+
+
+nav {
+	text-align: center;
+}
+
+.navlink {
+	display: inline-block;
+	padding: 20px;
+	font-weight: 100;
+	font-size: 15px;
+	font-family: "Space Mono";
+	font-style: italic;
+	
+}
+
+.navlink a {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(243, 249, 139);
+	padding: 10px;
+}
+
+.hero {
+	/*Height: 850px;
+	background-image: url(../images/bedroom.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	width: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero img{
+	width: 1000px;
+
+}
+img{
+	z-index: 12;
+}
+
+.sticky{
+	position: sticky;
+	top: 75px;
+	left: 800px;
+	height: 400px;
+	z-index: 9;
+	
+}
+
+.birdtext{
+	display: flex;
+	height: 350px;
+	width: 100;
+	/*background-color: lightblue;*/
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.birdtext img{
+	float: right;
+	height: 400px;
+	z-index: 10;
+}
+
+p{
+	width: 300px;
+	padding: 40px;
+	background-color: rgb(243, 249, 139);
+	font-family: "Space Mono";
+	font-style: italic;
+}
+
+.birdtext a{
+	text-decoration: underline;
+	color: #FF7436;
+
+}
+
+.footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.subfoot{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header{
+	top: 100px;
+	height: 200px;
+}
+
+.birdimg{
+		display: flex;
+	height: 350px;
+	width: 100;
+	/*background-color: lightblue;*/
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.birdimg img{
+	float: right;
+	height: 400px;
+	z-index: 10;
+}
+
+.lists{
+	padding: 35px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.col {
+	width: 30%;
+	background-color: rgb(243, 249, 139);
+
+}
+
+.col p{
+	width: 30%;
+	background-color: rgb(243, 249, 139);
+
+}
+
+ul {
+	font-family: "Space Mono";
+	font-style: italic;
+	padding: 20px;
+	list-style-image: url(../images/bullet.png);
+	list-style-position: outside;
+	margin-left: 25px;
+
+}	
+
+
+ol {
+	background-color: rgb(243, 249, 139);
+	font-family: "Space Mono";
+	font-style: italic;
+	padding: 15px;
+	list-style-position: outside;
+	line-height: 35px;
+	list-style: none; 
+	counter-reset: li
+
+
+}	
+
+ol li::before {
+	content: counter(li); 
+	color: #E85BFF;
+	width: 1em;
+
+
+}
+
+li {counter-increment: li}
+
+.birdimg-large{
+	display: flex;
+	height: 500px;
+	width: 100;
+	/*background-color: lightblue;*/
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.birdimg-large img{
+	float: right;
+	height: 700px;
+	z-index: 10;
+}
+
+.birdimg-recipe{
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+blockquote{
+	width: 400px;
+	padding: 40px;
+	background-color: rgb(243, 249, 139);
+	font-family: "Space Mono";
+	font-style: italic;
+	font-size: 21px;
+	color: #E85BFF;
+}
+
+
