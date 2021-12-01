@@ -1,10 +1,15 @@
 @font-face { 
 	font-family: "Scream Again"; 
-	src: url(.../Scream Again.ttf);} 
-@font-face{
+	src: url(../Scream Again.ttf);} 
+
+/*@font-face{
 	font-family: "Space Mono";
-	src: url(.../SpaceMono);
+	src: url(../SpaceMono);*/
 }
+
+@font-face {
+	font-family: 'Space Mono', monospace;
+}	
 
 body {background-image: url(../images/bedroom.jpg);
 	background-size: cover;
